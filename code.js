@@ -2,8 +2,6 @@ x = document.createElement("script");
 x.src = "//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js";
 void document.getElementsByTagName("head")[0].appendChild(x);
 
-
-var User = griffpatch;
 var NumberOfPages = 0;
 var NumStart = 0;
 var page = 1;
