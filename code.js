@@ -28,7 +28,7 @@ function getData() {
   if (window.jQuery) {
     if (NumberOfPages == 0) {
       window.jQuery.ajax({
-        url: 'https://scratch.mit.edu/users/griffpatch/followers/?page=' + page,
+        url: 'https://scratch.mit.edu/users/TinyDxde/followers/?page=' + page,
         success: function(data, status) {
           var $dom = window.jQuery(data);
           var $users = $dom.find('span.title').children();
